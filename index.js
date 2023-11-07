@@ -10,12 +10,11 @@ const cloudinary=require("cloudinary");
 const app = express();
 app.use(express.json({ limit: "10mb" }));
 
-
-cloudinary.config({
-    cloud_name: 'dxrze8ji2',
-    api_key: '987534721543442',
-    api_secret: '4o68EWb4h3M1ETJQTGuw8AfXcV0'
-});
+cloudinary.config({ 
+    cloud_name: 'daedd1zfw',  
+    api_key: '955338942139359', 
+    api_secret: 'ip8Slb3geFBQHVUH8VqdF3PUj8s' 
+  });
 app.use(morgan("common"));
 
 const corsOptions = {
